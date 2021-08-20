@@ -1,0 +1,33 @@
+{
+  "name": "test_jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage ./tests",
+    "tdd": "jest --watch ./tests"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 50,
+        "statements": -10
+      }
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.6"
+  },
+  "Dependencies": {
+    "restify": "^8.5.1"
+  },
+  "dependencies": {
+    "restify": "^8.5.1"
+  }
+}
